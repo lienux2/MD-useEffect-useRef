@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 
-input, select {
+input,
+select {
   font-family: 'Indie Flower', cursive;
   font-weight: bolder;
   height: 50px;
@@ -41,7 +42,8 @@ body {
   min-width: 50px;
 }
 
-.small-button, .large-button {
+.small-button,
+.large-button {
   padding: 10px;
   font-family: 'Indie Flower', cursive;
   font-weight: bolder;
@@ -50,7 +52,10 @@ body {
   cursor: pointer;
 }
 
-.pink, .blue, .yellow, .empty {
+.pink,
+.blue,
+.yellow,
+.empty {
   width: 80px;
   aspect-ratio: 1 / 1;
   border: 1px solid black;
@@ -77,4 +82,16 @@ body {
 
 .forms-image2 {
   margin-bottom: 10px;
+}
+
+.forms-image3 {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
